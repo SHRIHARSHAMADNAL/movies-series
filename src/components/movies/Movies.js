@@ -24,10 +24,10 @@ export const Movies = () => {
     {load === false &&
       <div className="series-container">
       {movies.map((movie,i) => (
-        <div>
+        <div  key={i}>
         <div
           className="series-tile"
-          key={i}
+         
           style={{ backgroundImage: `url(${movie.images['Poster Art']?.url})` }}
         >
            

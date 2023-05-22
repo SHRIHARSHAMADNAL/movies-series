@@ -24,10 +24,10 @@ export const Series = () => {
     {load === false &&
       <div className="series-container">
       {seriesData.map((series,i) => (
-        <div>
+        <div key={i}>
         <div
           className="series-tile"
-          key={i}
+          
           style={{ backgroundImage: `url(${series.images['Poster Art']?.url})` }}
         >
            
