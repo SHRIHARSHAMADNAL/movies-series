@@ -1,0 +1,37 @@
+.footerMainContainer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  .footer {
+    background-color: #1a1818;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-top {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-icons {
+    margin-right: 10px;
+  }
+  
+  .store-icons {
+    margin-left: 10px;
+  }
+  
+  img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+}

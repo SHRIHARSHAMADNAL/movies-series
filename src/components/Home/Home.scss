@@ -1,0 +1,32 @@
+.homeMainContainer{
+
+    .tile-container {
+        display: flex;
+        justify-content: flex-start;
+      }
+      
+      .tile {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        background-color: #2a2727;
+        width: 170px;
+        height: 300px;
+        float: left;
+        color: white;
+        cursor: pointer;
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          margin-bottom: 10px;
+        }
+        
+        h3 {
+          margin: 0;
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+}
